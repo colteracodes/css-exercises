@@ -1,0 +1,25 @@
+/* Style for odd-numbered <p> elements */
+p:nth-of-type(odd) {
+    background-color: lightpink;  /* Light red/pink background */
+    font-family: Verdana, "DejaVu Sans", sans-serif; /* Font list */
+    padding: 10px;  /* Optional: add padding for better readability */
+}
+
+/* Style for the second element (which is a <div>) */
+div:nth-of-type(1) {
+    color: blue; /* Blue text */
+    font-size: 36px; /* Font size of 36px */
+}
+
+/* Style specifically for the third <p> element (with light pink background and 24px font size) */
+p:nth-of-type(3) {
+    background-color: lightpink; /* Light pink background */
+    font-size: 24px; /* Font size of 24px */
+}
+
+/* Style for the fourth element (which is the second <div>) */
+div:nth-of-type(2) {
+    background-color: lightgreen; /* Light green background */
+    font-size: 24px; /* Font size of 24px */
+    font-weight: bold; /* Bold text */
+}
