@@ -1,0 +1,7 @@
+/* Style for <p> elements that are descendants of <div> */
+div p {
+    background-color: yellow;   /* Yellow background */
+    color: red;                 /* Red text */
+    font-size: 20px;            /* Font size of 20px */
+    text-align: center;         /* Center aligned text */
+}
